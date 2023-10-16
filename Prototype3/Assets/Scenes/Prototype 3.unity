@@ -2331,7 +2331,7 @@ Transform:
   m_GameObject: {fileID: 8383583930073965185}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2385,8 +2385,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 3.7195494, z: 1}
-  m_Center: {x: 0, y: 1.3597747, z: 0}
+  m_Size: {x: 1, y: 3.210392, z: 1}
+  m_Center: {x: 0, y: 1.6143534, z: 0}
 --- !u!54 &8383583930074070692
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2412,7 +2412,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 122
   m_CollisionDetection: 0
 --- !u!4 &8383583930074070695
 Transform:
@@ -2762,6 +2762,10 @@ PrefabInstance:
     - target: {fileID: 4851375644497357429, guid: 0bad20e0b19cc5742ad37c4d78e2c1fe, type: 3}
       propertyPath: m_Name
       value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4851375644497357429, guid: 0bad20e0b19cc5742ad37c4d78e2c1fe, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
